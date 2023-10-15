@@ -1,0 +1,63 @@
+.signup {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .form {
+    width: 30vw;
+    height: auto;
+    margin: 5px 0px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    outline: 2px solid rgba(0, 0, 0, 0.205);
+    outline-offset: -2px;
+    transition: all 0.15s ease-in;
+    border-radius: 10px;
+
+    .heading {
+      font-size: large;
+      margin-bottom: 20px;
+      font-weight: 500;
+      line-height: 1.25;
+      color: #000;
+    }
+
+    .formValue {
+      height: auto;
+      width: auto;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .error {
+      margin: 25px;
+      font-size: medium;
+      font-weight: 500;
+      color: red;
+    }
+
+    .link {
+      margin: 10px;
+      text-decoration: none;
+      font-size: medium;
+      line-height: 1.5;
+      font-weight: 500;
+      color: #333;
+    }
+    .link:hover {
+      text-decoration: underline;
+      color: #000;
+    }
+  }
+
+  .form:hover {
+    outline: 2px solid rgb(76 76 76);
+  }
+}

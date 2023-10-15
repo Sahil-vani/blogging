@@ -1,0 +1,25 @@
+.addPost {
+  display: flex;
+  flex-wrap: wrap;
+
+  .left {
+    width: 66.66%;
+    padding: auto 8px;
+  }
+  .right {
+    width: 33.33%;
+    padding: auto 20px;
+
+    .imgSection {
+      width: 100%;
+      padding-left: 20px;
+      margin-bottom: 16px;
+
+      img {
+        width: 400px;
+        height: 250px;
+        border-radius: 12px;
+      }
+    }
+  }
+}
