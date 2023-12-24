@@ -10,7 +10,7 @@ function Footer() {
         <div className="subContainer">
           <div className="contentOne">
             <div className="mainContent">
-              <div className="logo">
+              <div className="logoFooter">
                 <Logo />
               </div>
               <div>

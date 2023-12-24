@@ -1,13 +1,13 @@
 .home {
-  width: 100%;
+  width: 100vw;
   height: 58vh;
   display: flex;
   align-items: center;
   justify-content: center;
   h1 {
-    font-size: xx-large;
+    font-size: 3vmax;
     font-weight: 600;
-    margin: 50px;
+    margin: 5vmin;
   }
 }
 
